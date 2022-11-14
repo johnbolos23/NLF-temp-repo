@@ -1,1 +1,289 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+.container{
+    @media(min-width: $bigScreen){
+        max-width: 1680px;
+    }
+
+    @media (max-width: $smallLaptop){
+        max-width: 100%;
+        padding: 0 40px;
+    }
+
+    @media ( max-width: $tablet){
+        padding: 0 27px;
+    }
+
+    @media ( max-width: $mobile){
+        padding: 0 15px;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h5, p, a, span, div{
+    font-family: 'Neue Plak';
+}
+
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 56px;
+}
+
+h3{
+    font-size: 48px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 120%;
+    letter-spacing: -0.03em;
+}
+
+
+.main-button {
+    border: 1px solid #003E67;
+    padding: 22px 40px;
+    text-decoration: none;
+    color: #003E67;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Neue Plak Bold";
+}
+
+
+.main-button.blue-btn {
+    background: #00A4D6;
+    color: white;
+    border: 1px solid #00A4D6;
+}
+
+a.main-button svg {
+    margin-right: 10px;
+}
+
+.subheading{
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ACACAC;
+    font-family: "Neue Plak Extended Semibold";
+}
+
+.heading{
+    color: #003E67;
+    font-family: "Neue Plak 600";
+}
+
+.heading span{
+    color: #00A4D6;
+    font-family: "Neue Plak 600";
+}
+
+.heading span span{
+    font-family: auto !important;
+}
+
+
+/************ HEADER ************/
+
+header.main-header {
+    padding: 25px 0px;
+    position: absolute;
+    width: 100%;
+
+    .menu-inner-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .menu-main-header-container {
+            ul {
+                display: flex;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            
+                li {
+                    padding: 15px 20px;
+                    /* text-decoration: none; */
+            
+                    a {
+                        text-decoration: none;
+                        color: #003E67;
+                        font-size: 20px;
+                    }
+                    
+                    
+                    
+                }
+
+                li.current-menu-item {
+                    a{
+                        color: #0063A4;
+                    }
+                    
+                
+                }
+                
+            }
+        }
+    
+    
+    
+        .header-search-icon-btn{
+            a.header-search-icon {
+                margin-right: 35px;
+            }
+
+    
+            .main-button span {
+                font-size: 18px !important;
+                font-family: "Neue Plak Bold";
+            }
+
+            
+            
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+/*************** FOOTER ****************/
+
+footer#main-footer {
+    padding: 40px 20px;
+    padding-top: 120px;
+    position: relative;
+
+    .row-inner {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 2;
+
+        .col-footer.num-1 {
+            width: 25%;
+        }
+        
+        .col-footer.col-list {
+            width: 18.75%;
+        }
+        
+        .col-footer {
+            color: white;
+
+            h4 {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 34px;
+            /* identical to box height */
+                letter-spacing: -0.03em;
+                font-feature-settings: 'liga' off;
+                font-family: "Neue Plak Extended Semibold";
+                margin-bottom: 25px;
+            }
+
+            ul {
+                padding: 0;
+                list-style-type: none;
+                color: white;
+            
+                li {
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: flex-start;
+            
+                    a, p {
+                        color: white;
+                        text-decoration: none;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 150%;
+                    /* identical to box height, or 30px */
+                        font-feature-settings: 'liga' off;
+                    }
+            
+                    img {
+                        margin-right: 20px;
+                    }
+                    
+                }
+            }
+            
+            ul.icon-social {
+                display: flex;
+                align-items: flex-start;
+            
+                img {
+                    margin-right: 40px !important;
+                }
+            }
+            
+        }
+        
+        .col-footer.num-5 {
+            width: 18.75%;
+        }
+    }
+
+    
+    .row-inner-2 {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        padding-top: 15em;
+        position: relative;
+        z-index: 2;
+
+        .col-footer-a {
+            width: 33.33%;
+        }
+        
+        .col-footer-b {
+            width: 33.33%;
+            text-align: center;
+        }
+        
+        .col-footer-c {
+            width: 33.33%;
+            text-align: end;
+        }
+
+        .text-footer {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            font-feature-settings: "liga" off;
+        
+        }
+    }
+    
+    .dots-custom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0;
+        z-index: 1;
+    }
+    
+}
+
+
+
+
+
+
+
+

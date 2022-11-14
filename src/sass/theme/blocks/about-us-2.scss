@@ -1,0 +1,50 @@
+section.page-section.about-us-2 {
+    padding: 40px 0px;
+
+    .row-inner {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        max-width: 1540px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        img {
+            width: 100%;
+        }
+        
+        .image-colum {
+            padding-right: 6em;
+            position: relative;
+
+            .dots-custom {
+                position: absolute;
+                bottom: -2em;
+                left: -2.3em;
+                z-index: -1;
+            }
+        }
+        
+        .content-column {
+            padding: 15px;
+
+            .wysiwyg-content p {
+                font-size: 20px;
+            }
+
+            h2.heading {
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+        }
+        
+
+        
+
+    }
+    
+
+}
+
