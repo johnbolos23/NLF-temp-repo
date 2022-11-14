@@ -28,3 +28,87 @@ WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/t
 Do not modify the parent Understrap theme. Instead, download a copy of the Understrap Child starter theme and do all your development within the child theme.
 Full developer documentation: https://docs.understrap.com
 */
+
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('fonts/Neue-Plak/NeuePlakRegular.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakRegular.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('fonts/Neue-Plak/NeuePlakRegular.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakRegular.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak 600';
+    src: url('fonts/Neue-Plak/NeuePlakExtendedBold.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakExtendedBold.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakExtendedBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak Thin';
+    src: url('fonts/Neue-Plak/NeuePlakCondensedThin.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakCondensedThin.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakCondensedThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak Regular';
+    src: url('fonts/Neue-Plak/NeuePlakExtendedRegular.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakExtendedRegular.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakExtendedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak SemiBold';
+    src: url('fonts/Neue-Plak/NeuePlakTextSemiBold.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakTextSemiBold.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakTextSemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak Extended SemiBold';
+    src: url('fonts/Neue-Plak/NeuePlakExtendedSemiBold.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakExtendedSemiBold.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakExtendedSemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak Extended Bold';
+    src: url('fonts/Neue-Plak/NeuePlakExtendedBold.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakExtendedBold.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakExtendedBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Plak Bold';
+    src: url('fonts/Neue-Plak/NeuePlakBold.ttf');
+    src: url('fonts/Neue-Plak/NeuePlakBold.ttf') format('truetype'),
+         url('fonts/Neue-Plak/NeuePlakBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

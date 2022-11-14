@@ -1,0 +1,68 @@
+.homepage-banner{
+    .homepage-banner-col {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        align-items: center;
+        align-content: space-evenly;
+        padding: 0;
+
+        .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px 110px 2px 170px;
+            position: relative;
+
+            img.logo-image {
+                margin-bottom: 40px;
+            }
+
+            .dual-button {
+                margin-top: 3em;
+                margin-bottom: 3em;
+            }
+            img.g-reviews-img {
+                width: 16em;
+                margin-top: 25px;
+            }
+
+            .dots-custom {
+                position: absolute;
+                left: 12px;
+                bottom: 0;
+            }
+
+            a.main-button{
+                margin-right: 18px;
+                border-width: 2px;
+            }
+
+            a.main-button.blue-btn {
+                margin-right: 18px;
+            }
+            
+            .wysiwyg-content {
+                font-size: 24px;
+                color: #003E67;
+            }
+
+            .heading{
+                font-family: "Neue Plak 600";
+            }
+        }
+
+        .image-background img {
+            width: 100%;
+        }
+    }
+    
+}
+
+
+
+
+
+
+

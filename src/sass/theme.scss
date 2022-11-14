@@ -12,3 +12,34 @@
 // Any additional imported files //
 @import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
 
+
+// Flexible Block - Homepage Banner
+@import "theme/blocks/homepage_banner";
+
+// Flexible Block - Page Banner
+@import "theme/blocks/page_banner";
+
+// Flexible Block - Blogs
+@import "theme/blocks/blogs";
+
+// Flexible Block - Testimonials
+@import "theme/blocks/testimonials";
+
+// Flexible Block - About Us
+@import "theme/blocks/about-us";
+
+// Flexible Block - Page Blog List
+@import "theme/blocks/page-blog-list";
+
+// Flexible Block - About Us 2
+@import "theme/blocks/about-us-2";
+
+// Flexible Block - FAQS
+@import "theme/blocks/faqs";
+
+// Flexible Block - Service Detail
+@import "theme/blocks/service-detail";
+
+
+// Page - Single Post
+@import "theme/pages/single";

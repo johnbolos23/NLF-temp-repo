@@ -1,0 +1,77 @@
+section.page-section.faqs{
+    padding: 50px 0px;
+
+    .row-inner {
+        display: grid;
+        grid-template-columns: 40% 60%;
+
+        .content-column {
+            padding: 20px;
+
+            .wysiwyg-content p{
+                font-size: 20px;
+            }
+        }
+
+    }
+    
+
+    ul.accordion {
+        padding: 0;
+        list-style-type: none;
+
+        > li.active a i {
+            -ms-transform: rotate(20deg); /* IE 9 */
+            transform: rotate(180deg);
+        }
+
+        > li {
+            padding: 25px 0px;
+            border-bottom: 2px solid #EBEAED;
+
+            
+    
+            > p.link {
+                margin-bottom: 0;
+
+                a {
+                    font-size: 24px;
+                    line-height: 34px;
+                /* identical to box height */
+                    letter-spacing: -0.03em;
+                    color: #003E67;
+                    text-decoration: none;
+                    font-family: "Neue Plak Extended Bold";
+                    width: 100%;
+                    display: block;
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 0;
+                        font-size: 12px;
+                    }
+                }
+
+
+                
+            }
+                
+            ul.subtext {
+                padding: 10px 0px;
+                list-style-type: none;
+                background: none !important;
+                display: none;
+                background: #f8f9f9;
+
+                .wysiwyg-content p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+      
+}
+

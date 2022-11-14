@@ -1,0 +1,84 @@
+.testimonials{
+    padding: 40px 0px;
+
+    .upper-column {
+        padding: 20px;
+
+        .heading {
+            max-width: 10em;
+            width: 100%;
+        }
+    
+    }
+    
+
+    .reviews-item {
+        margin: 13px;
+        background: #F4F7F9;
+        padding: 50px 45px;
+    
+        .reviews-stars {
+            display: flex;
+        
+            .stars {
+                font-size: 35px;
+                color: #FF9900;
+            }
+        }
+    
+        .reviews-content-context p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 170%;
+        }
+        
+        .reviews-name h5 {
+            font-size: 24px;
+            line-height: 34px;
+        /* identical to box height */
+            letter-spacing: -0.03em;
+            color: #003E67;
+            font-family: "Neue Plak Extended Bold";
+            margin-bottom: 0;
+        }
+    
+        .reviews-position {
+            font-size: 18px;
+            line-height: 24px;
+            color: #34434D;
+        }
+    
+        .reviews-poster {
+            margin-top: 20px;
+        }
+    }
+
+
+
+    .owl-nav {
+        position: absolute;
+        right: 6px;
+        top: -8.5em;
+
+        button {
+            border: 1px solid #003E67!important;
+            border-radius: 0 !important;
+
+            i {
+                font-size: 22px;
+                padding: 21px 23px;
+                color: #003E67;
+            }
+        }
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
