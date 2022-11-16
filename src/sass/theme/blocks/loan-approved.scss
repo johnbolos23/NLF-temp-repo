@@ -1,0 +1,65 @@
+
+section.page-section.loan-approved {
+    padding: 50px 0px;
+
+    .row-inner {
+        display: grid;
+        grid-template-columns: 38% 62%;
+        align-items: center;
+        position: relative;
+        height: 390px;
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        > img {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 21em;
+        }
+
+        .content-col {
+            border-left: 2px solid #528cb482;
+            padding: 2px 0px;
+            padding-left: 7em;
+
+            p:nth-child(2) {
+                margin-bottom: 0;
+            }
+
+            h4.heading {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+            
+            .wysiwyg-content {
+                font-size: 20px;
+                width: 100%;
+                max-width: 34em;
+            }
+            
+            p {
+                margin-bottom: 35px;
+            }
+        }
+        
+
+        .dots-custom {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

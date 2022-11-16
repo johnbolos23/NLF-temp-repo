@@ -1,0 +1,85 @@
+section.page-section.mission-vision {
+    padding: 100px 0px;
+}
+
+ul.mission-vision-inner {
+    /* padding: 20px; */
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.mission-vision-inner li {
+    width: 33.33%;
+    padding: 15px;
+    position: relative;
+}
+
+.mission-vision-item-inner {
+    background: #F5F7F9;
+    padding: 35px;
+    position: relative;
+    height: 215px;
+    overflow: hidden;
+    border-bottom: 5px solid #106DAA;
+}
+
+.mission-vision-item-inner .wysiwyg-content p {
+    font-family: "Neue Plak Extended Semibold";
+    font-size: 24px;
+    line-height: 33px;
+    color: #003E67;
+}
+
+section.page-section.mission-vision h2.heading {
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.mission-vision-item-inner span {
+    position: absolute;
+    left: 0;
+    background: #00A4D6;
+    width: 100%;
+    bottom: -75px;
+    padding: 20px 35px;
+    transition:.3s;
+}
+
+.mission-vision-item-inner span a {
+    font-size: 18px;
+    line-height: 150%;
+/* identical to box height, or 27px */
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Neue Plak Bold";
+}
+
+.mission-vision-item-inner span a svg {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.mission-vision-item-inner span a svg path {
+    stroke: white;
+}
+
+ul.mission-vision-inner li:hover .mission-vision-item-inner span{
+    bottom:0;
+    transition:.3s;
+}
+
+ul.mission-vision-inner li:hover .mission-vision-item-inner {
+    border-bottom: 5px solid #F5F7F9 !important;
+    background: #003E67;
+}
+
+
+ul.mission-vision-inner li:hover .mission-vision-item-inner .wysiwyg-content p{
+    color:white;
+}

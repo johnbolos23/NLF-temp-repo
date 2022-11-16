@@ -1,0 +1,96 @@
+
+section.page-section.why-choose-us {
+    padding: 50px 0px;
+
+    .row-inner{
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+        .subheading {
+            text-align: center;
+        }
+        
+        .heading {
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 15px;
+        }
+
+        .wcu-col{
+            ul.wcu-inner {
+                padding: 0;
+                list-style-type: none;
+
+                li{
+                    .wcu-item-inner {
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        /* padding: 40px; */
+
+                        .col-image {
+                            width: 50%;
+
+                            img {
+                                width: 100%;
+                                padding: 40px;
+                            }
+                            
+                        }
+
+                        .col-content {
+                            width: 50%;
+                            padding: 40px;
+
+                            h5 {
+                                line-height: 34px;
+                                letter-spacing: -.03em;
+                                color: #003e67;
+                                text-decoration: none;
+                                font-family: "Neue Plak Extended Bold";
+                                width: 100%;
+                                font-size: 24px;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .wysiwyg-content {
+                                font-size: 18px;
+                                line-height: 170%;
+                            /* or 31px */
+                                color: #34434D;
+                            }
+                            
+                            
+                        }
+                        
+                        
+                    }
+                    
+                }
+            }
+
+            ul.wcu-inner li:nth-child(even) {
+
+                .wcu-item-inner {
+                    flex-direction: row-reverse;
+
+                    .col-content {
+                        text-align: end;
+                    }
+                }
+
+
+            }
+
+        }
+
+    }
+
+
+}
+
+
+

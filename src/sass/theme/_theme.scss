@@ -52,6 +52,12 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Neue Plak Bold";
 }
 
+a.main-button.dark-blue-button {
+    background: #003e67;
+    color: white;
+    border: #003e67;
+}
+
 
 .main-button.blue-btn {
     background: #00A4D6;
@@ -86,6 +92,23 @@ a.main-button svg {
     font-family: auto !important;
 }
 
+.wysiwyg-content ul li {
+    font-size: 20px;
+    background-image: url(http://localhost/nlf/wp-content/uploads/2022/11/blue-check.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: 0px 4px;
+    background-size: 22px;
+    padding-left: 2em;
+    margin-bottom: 11px;
+}
+
+.wysiwyg-content ul {
+    padding:0;
+    list-style-type: none;
+    margin: 30px 0px;
+}
+
 
 /************ HEADER ************/
 
@@ -93,6 +116,7 @@ header.main-header {
     padding: 25px 0px;
     position: absolute;
     width: 100%;
+    z-index: 1;
 
     .menu-inner-col {
         display: flex;
