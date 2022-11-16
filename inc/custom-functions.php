@@ -319,3 +319,54 @@ function reviews_slider(){
 }
 
 add_shortcode( 'reviews_slider', 'reviews_slider' ); 
+
+
+
+
+
+
+
+
+
+// OUR TEAM
+
+function team_list(){
+  
+    $args = array(
+                    'post_type'      => 'our_team',
+                    'posts_per_page' => '4',
+                    'publish_status' => 'published',
+                    'order' => 'DESC',
+                 );
+   
+    $query = new WP_Query($args);
+    $result = '';
+    if($query->have_posts()) :
+        
+        
+        while($query->have_posts()) :
+  
+            $query->the_post() ;
+                      
+        $result .= '<div class="team-item">';
+            $result .= '<div class="team-inner">';
+                $result .= '<div class="team-poster">' . get_the_post_thumbnail() . '</div>';
+                $result .= '<div class="team-content-inner">';
+                    $result .= '<div class="team-name"><h5>' . get_the_title() . '</h5></div>';
+                    $result .= '<div class="team-position">' . get_post_meta( get_the_ID(), 'position', true ) . '</div>';
+                $result .= '</div>';
+            $result .= '</div>';
+         $result .= '</div>';
+        endwhile;
+  
+        wp_reset_postdata();
+    
+        
+    endif;    
+  
+    return $result;            
+}
+
+
+
+add_shortcode( 'team_list', 'team_list' ); 

@@ -1,0 +1,130 @@
+section.page-section.service-list-cta {
+    padding: 100px 0px;
+
+    .row-inner {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+
+        
+        .content-column {
+            width: 60%;
+            padding-right: 6em;
+
+            .heading {
+                margin-bottom: 25px;
+            }
+            
+            .wysiwyg-content {
+                font-size: 20px;
+            }
+        }
+
+        
+       .cta-col {
+            width: 40%;
+
+            
+            ul.cta-inner {
+                padding: 0;
+                list-style-type: none;
+
+                li {
+                    padding: 20px;
+
+                    .cta-item-inner {
+                        padding: 20px;
+                        position: relative;
+                        background: rgb(245,247,249);
+                        background: linear-gradient(90deg, rgba(245,247,249,1) 69%, rgba(245,247,249,0.6923144257703081) 100%);
+                        display: flex;
+                        align-items: center;
+                        height: 150px;
+                        padding: 20px 38px;
+
+                        img.bg-image {
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            height: 100%;
+                            z-index: -1;
+                            width: 35%;
+                            object-fit: cover;
+                        }
+
+                        img.ic-image {
+                            margin-right: 40px;
+                        }
+
+                        .content-col h5 {
+                            color: #003e67;
+                            font-family: "Neue Plak 600";
+                            font-size: 24px;
+                            margin-bottom: 15px;
+                        }
+                        
+                        .content-col span a {
+                            font-size: 18px;
+                            line-height: 150%;
+                        /* identical to box height, or 27px */
+                            color: #003E67;
+                            text-decoration: none;
+                            font-family: "Neue Plak Semibold";
+                        }
+                        
+                        .content-col span a svg {
+                            margin-right: 10px;
+                            height: 28px;
+                            width: 28px;
+                        }
+                        
+                    }
+                }
+
+                li:hover{
+                    .cta-item-inner {
+                        background: rgb(0,62,103);
+                        background: linear-gradient(90deg, rgba(0,62,103,1) 69%, rgba(0,62,103,0.69) 100%);
+                    }
+                    
+                    img.ic-image{
+                        filter: brightness(0) invert(1);
+                    }
+                    
+                    .content-col h5{
+                        color:white;
+                    }
+                    
+                    .content-col span a{
+                        color:white;
+                    }
+                    
+                    .content-col span a svg path{
+                        stroke:white;
+                    }
+                    
+                    .content-col span a svg circle{
+                        stroke:white;
+                    }
+                }
+            }
+            
+        }
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

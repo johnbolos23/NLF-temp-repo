@@ -1,10 +1,12 @@
-.homepage-banner{
+.homepage-banner-v2{
     .homepage-banner-col {
         display: grid;
-        grid-template-columns: 42% 58%;
+        grid-template-columns: 100%;
         align-items: center;
         align-content: space-evenly;
         padding: 0;
+        justify-items: center;
+        text-align: center;
 
         .content {
             height: 100%;
@@ -12,7 +14,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            padding: 20px 110px 2px 170px;
+            padding: 115px 110px 650px 170px;
             position: relative;
             z-index: 2;
 
@@ -23,10 +25,16 @@
             .dual-button {
                 margin-top: 3em;
                 margin-bottom: 3em;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                width: 100%;
             }
             img.g-reviews-img {
                 width: 16em;
                 margin-top: 25px;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             .dots-custom {
@@ -47,10 +55,14 @@
             .wysiwyg-content {
                 font-size: 24px;
                 color: #003E67;
+                width: 100%;
+                margin-top: 25px;
             }
 
             .heading{
                 font-family: "Neue Plak 600";
+                max-width: 11em;
+                width: 100%;
             }
         }
 
@@ -60,6 +72,18 @@
     }
     
 }
+
+section.page-section.homepage-banner-v2 .homepage-banner-col:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(180deg, #B2CBDB 20%, rgb(178 203 219 / 8%) 70%);
+    top: 0;
+}
+
+
 
 
 

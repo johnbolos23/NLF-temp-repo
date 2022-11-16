@@ -1,0 +1,76 @@
+section.page-section.out-team {
+    padding: 100px 0px;
+    // margin: 30px 0px;
+
+    .row-inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .content-column {
+            width: 50%;
+            padding: 40px;
+            padding-right: 8em;
+            
+            .heading {
+                font-size: 36px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+
+            .wysiwyg-content {
+                font-size: 20px;
+            }
+            
+        }
+
+        .team-colum {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .team-item {
+                width: 50%;
+                padding: 15px;
+
+                .team-inner {
+                    background: white;
+                    padding: 30px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .team-content-inner h5 {
+                        color: #003e67;
+                        text-decoration: none;
+                        font-family: "Neue Plak Extended Bold";
+                        width: 100%;
+                        font-size: 24px;
+                        margin-top: 20px;
+                    }
+                    
+                    .team-content-inner .team-position {
+                        font-size: 18px;
+                    }
+                }
+
+
+            }
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+

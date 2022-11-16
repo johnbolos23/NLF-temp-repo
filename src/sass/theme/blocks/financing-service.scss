@@ -1,0 +1,123 @@
+section.page-section.financing-service {
+    padding: 50px 0px;
+
+   .row-inner {
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        h2.heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    
+    }
+    
+}
+
+
+
+
+ul.service-inner {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        width: 33.33%;
+        padding: 10px 30px;
+        transition:.4s;
+
+        .service-item-inner {
+            padding: 35px;
+            
+            .col-display {
+                transition:.4s;
+                margin-bottom: 45px;
+                height: 200px;
+
+                h5 {
+                    font-size: 24px;
+                    line-height: 34px;
+                /* identical to box height */
+                    letter-spacing: -0.03em;
+                    color: #003E67;
+                    font-family: "Neue Plak Extended Bold";
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                > img {
+                    height: 60px;
+                    object-fit: contain;
+                }
+
+                .wysiwyg-content {
+                    width: 100%;
+                    max-width: 22em;
+    
+                    p {
+                        font-size: 18px;
+                    }
+                }
+                
+            }
+
+            .col-hover {
+                height:2px;
+                overflow:hidden;
+                transition: .4s;
+                margin-bottom: 0;
+            }
+        }
+        
+
+        
+    }
+
+    li:hover .service-item-inner {
+        background: #F5F7F9;
+
+        .col-display {
+            height: 0px;
+            overflow: hidden;
+            transition:.4s;
+        }
+
+        .col-hover {
+            height:100px;
+            transition: .4s;
+            margin-bottom: 45;
+
+            h4 {
+                font-size: 32px;
+                line-height: 45px;
+                letter-spacing: -0.03em;
+                color: #003E67;
+                font-family: "Neue Plak Extended Bold";
+            }
+
+            .wysiwyg-content {
+                font-size: 18px;
+                line-height: 150%;
+            /* identical to box height, or 27px */
+                color: #003E67;
+            
+            }
+            
+            
+        }
+        
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+

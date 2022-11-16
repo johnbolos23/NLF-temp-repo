@@ -1,0 +1,64 @@
+
+section.page-section.video-proof-points {
+    padding: 50px 0px;
+
+    
+    .row-inner {
+        padding: 0px 40px;
+
+        .video-popup-trigger {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        
+        .information-with-video-video.pos-relative {
+            position: relative;
+        }
+
+        .information-with-video-video.pos-relative:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 99, 164, 0.3);
+        }
+        
+        ul.proof-points-inner {
+            display: flex;
+            padding: 40px 70px;
+            list-style-type: none;
+            flex-wrap: wrap;
+        
+            li {
+                width: 25%;
+            
+                .proof-points-item-inner span {
+                    font-family: "Neue Plak 600";
+                    font-size: 48px;
+                    color: #0063A4;
+                }
+        
+                .proof-points-item-inner .wysiwyg-content {
+                    font-size: 24px;
+                }
+            }
+            
+        }
+        
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
